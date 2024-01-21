@@ -1,0 +1,90 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0px;
+    font-family: sans-serif;
+    
+}
+
+body{
+    background-image: url(zeus.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar-1{
+    position: sticky;
+    display: flex;
+    height: 5vh;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: rgba(255, 217, 0, 0.87);
+}
+.navbar-1 h1{
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+    box-shadow: 0rem 0.4rem 1.5rem rgb(65, 39, 39);
+    background-color: rgba(128, 128, 128, 0.5);
+}
+.main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(zeus.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 100px;
+    height: 80vh;
+}
+
+.gold{
+    padding-top: 20px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+}
+.gacha{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    height: 30%;
+
+}
+.gacha button{
+    color:  white;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    padding: 0.5rem 1.2rem ;
+    border-radius: 0.8rem;
+    box-shadow: 0 3px 15px rgba(255, 255, 255, 0.801);
+    background-color: rgba(0, 0, 0, 0.301);
+}
+.text{
+    margin-top: 20vh;
+    font-size: 100%;
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+}
+.text-1{
+    font-size: 100%;
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+}
+.hasilan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.juju{
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 3px 15px rgba(255, 255, 255, 0.801);
+}
